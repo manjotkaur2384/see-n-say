@@ -1,0 +1,74 @@
+/* Your CSS styles go here */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #2ecc71;
+}
+
+#output {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.array {
+    margin-top: 20px;
+}
+
+.categoryColumn {
+    flex: 1;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryButton {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categoryButton:hover {
+    background-color: #2980b9;
+}
+
+.categoryContent img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.categoryContent p {
+    margin: 5px;
+}
+.image-column {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 10px;
+}
+
+.image-column img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
