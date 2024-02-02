@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>See 'N Say Story Maker</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="normalize.css" />
+</head>
+<body>
+    <h1>See 'N Say Story Maker</h1>
+    <div id="output"></div>
+ </div>
+    <button class="categoryButton" id="clearButton">Clear</button>
+    <button class="categoryButton" id="speakButton">Speak</button>
+    <button class="categoryButton" id="surpriseMeButton">Surprise Me</button>
+    <button class="categoryButton" id="playbackButton">Playback</button>
+    <div id="categories">
+        <div class="categoryColumn" id="nounColumn">
+            <button class="categoryButton" onclick="generateRandom('noun')">Nouns</button>
+            <div class="categoryContent" id="nounContent"></div>
+       </div>
+        <div class="categoryColumn" id="verbColumn">
+            <button class="categoryButton" onclick="generateRandom('verb')">Verbs</button>
+            <div class="categoryContent" id="verbContent"></div>
+        </div>
+        <div class="categoryColumn" id="soundColumn">
+            <button class="categoryButton" onclick="generateRandom('sound')">Sounds</button>
+            <div class="categoryContent" id="soundContent"></div>
+        </div>
+        <div class="categoryColumn" id="animalColumn">
+            <button class="categoryButton" onclick="generateRandom('animal')">Animals</button>
+            <div class="categoryContent" id="animalContent"></div>
+        </div>
+        <div class="categoryColumn" id="adjectiveColumn">
+            <button class="categoryButton" onclick="generateRandom('adjective')">Adjectives</button>
+            <div class="categoryContent" id="adjectiveContent"></div>
+        </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
